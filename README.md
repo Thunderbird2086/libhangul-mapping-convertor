@@ -1,5 +1,5 @@
 # libhangul mapping convertor
-python helper script to convert [hangul keyboard mapping](https://github.com/libhangul/libhangul/tree/main/data/keyboards) for any heyboard.
+python helper script to convert [hangul keyboard mapping](https://github.com/libhangul/libhangul/tree/main/data/keyboards) for any keyboard.
 
 When I switched my keyboard layout from QWERT to Colemak-DH (the physical layout), it became a disaster to type Korean on my Mac and Linux systems.
 Because, IMEs designed to use English letters to convert to Korean letters so that Korean layout has been modified along with Colemak modification.
