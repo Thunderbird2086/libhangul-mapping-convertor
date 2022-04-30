@@ -28,7 +28,7 @@ On Mac, [구름 입력기](https://github.com/gureum/gureum) uses [libhangul](ht
        d: s
    ```
    `name` is a reference and inserted into xml mapping
-   ```
+   ```xml
    <?xml version='1.0' encoding='utf-8'?>
    <hangul-keyboard id="2" type="jamo" converted="colemak-dh:crkbd:thunderbird2086">
    ```
@@ -36,7 +36,7 @@ On Mac, [구름 입력기](https://github.com/gureum/gureum) uses [libhangul](ht
    it can be found under `/Library/Input Methods/Gureum.app/Contents/Frameworks/Hangul.framework/Versions/A/Resources/keyboards`.<br>
    `mappig` contains key mapping.  For instance, `e: f` changes key `e` to `f`.  Refer to the image below.
 1. run `convert.py`, which requires _input path_ at least.
-   ```
+   ```shell
    $ python3 convert.py --help
    usage: Keyboard mapping convertor for libhangul [-h] [--config CONFIG] --in_path IN_PATH [--out_path OUT_PATH]
    
