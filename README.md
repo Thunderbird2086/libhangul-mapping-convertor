@@ -1,4 +1,4 @@
-# libhangul mappin convertor
+# libhangul mapping convertor
 python helper script to convert [hangul keyboard mapping](https://github.com/libhangul/libhangul/tree/main/data/keyboards) for any heyboard.
 
 When I switched my keyboard layout from QWERT to Colemak-DH (the physical layout), it became a disaster to type Korean on my Mac and Linux systems.
