@@ -21,12 +21,12 @@ def get_args():
                         help="mapping confiiguration")
     parser.add_argument('--in_path' , '-i',
                         type=pathlib.Path,
-                        default='./',
+                        required=True,
                         help="path for input files")
     parser.add_argument('--out_path', '-o',
                         type=pathlib.Path,
                         default='./',
-                        help="path for output files")
+                        help="path for output files. Default is current directory.")
 
 
     return parser.parse_args()
