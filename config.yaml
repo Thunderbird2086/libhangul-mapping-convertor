@@ -1,0 +1,25 @@
+name: colemak-dh:crkbd:thunderbird2086
+conversions:
+  - targets:
+      - hangul-keyboard-2.xml
+      - hangul-keyboard-2-full.xml
+    mapping:
+      e: f
+      r: p
+      t: b
+      s: r
+      d: s
+      f: t
+      v: d
+      b: v
+      y: j
+      u: l
+      i: u
+      o: y
+      p: o
+      h: m
+      j: n
+      k: e
+      l: i
+      n: k
+      m: h
