@@ -33,8 +33,8 @@ On Mac, [구름 입력기](https://github.com/gureum/gureum) uses [libhangul](ht
    <hangul-keyboard id="2" type="jamo" converted="colemak-dh:crkbd:thunderbird2086">
    ```
    `targets` has mappig file names to be modified. In case [구름 입력기](https://github.com/gureum/gureum) is installed on a Mac, 
-   it can be found under `/Library/Input Methods/Gureum.app/Contents/Frameworks/Hangul.framework/Versions/A/Resources/keyboards`.
-   `mappig` contains key mappingr.  For instance, `e: f` changes key `e` to `f`.  Refer to the image below.
+   it can be found under `/Library/Input Methods/Gureum.app/Contents/Frameworks/Hangul.framework/Versions/A/Resources/keyboards`.<br>
+   `mappig` contains key mapping.  For instance, `e: f` changes key `e` to `f`.  Refer to the image below.
 1. run `convert.py`, which requires _input path_ at least.
    ```
    $ python3 convert.py --help
@@ -52,5 +52,5 @@ On Mac, [구름 입력기](https://github.com/gureum/gureum) uses [libhangul](ht
  1. copy the output file to the input directory.
  1. enjoy
  
- * sample keyboard layout
+ * sample keyboard layout: custom Colemak-DH layout
    ![crkbd:thunderbird2086:colemak-dh:hangul-2-set](https://i.imgur.com/m52dZk0.png)
