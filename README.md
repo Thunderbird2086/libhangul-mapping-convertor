@@ -13,7 +13,7 @@ On Mac, [구름 입력기](https://github.com/gureum/gureum) uses [libhangul](ht
 1. python3
 
 ## How to use
-1. update [config.xml](config.xml) as needed
+1. update [config.yaml](config.yaml) as needed
    ```yaml
    name: colemak-dh:crkbd:thunderbird2086
    conversions:
