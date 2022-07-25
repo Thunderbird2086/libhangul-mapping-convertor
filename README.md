@@ -52,5 +52,5 @@ On Mac, [구름 입력기](https://github.com/gureum/gureum) uses [libhangul](ht
  1. copy the output file to the input directory.
  1. enjoy
  
- * sample keyboard layout: custom Colemak-DH layout
+ * sample keyboard layout: [custom Colemak-DH layout](https://github.com/qmk/qmk_firmware/tree/master/keyboards/crkbd/keymaps/thunderbird2086)
    ![crkbd:thunderbird2086:colemak-dh:hangul-2-set](https://i.imgur.com/m52dZk0.png)
